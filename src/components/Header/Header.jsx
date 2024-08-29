@@ -7,12 +7,6 @@ const Header = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/jobs">Jobs</NavLink>
-      </li>
-      <li>
-        <NavLink to="/Statistics">Statistics</NavLink>
-      </li>
-      <li>
         <NavLink to="/applied">Applied Jobs</NavLink>
       </li>
       <li>
@@ -22,7 +16,7 @@ const Header = () => {
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mb-8">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,7 +48,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Apply Now</a>
+        <a className="btn btn-primary">Star Applying</a>
       </div>
     </div>
   );
